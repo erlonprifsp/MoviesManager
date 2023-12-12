@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize // para tornar a classe parcelável
 data class Movie (
     @PrimaryKey
     var name: String = "", // nome do filme
-    var releaseYear: Int = INVALID_TIME, // ano de lançamento do filme
+    var releaseYear: Int = INVALID_YEAR, // ano de lançamento do filme
     var studio: String = "", // estúdio do filme
     var duration: Int = 0, // duração do filme em minutos
     var watched: Boolean = NOT_WATCHED, // flag para indicar se o filme foi assistido
@@ -19,7 +19,7 @@ data class Movie (
     var genre: String = "" // gênero do filme (romance, aventura, terror etc.)
 ): Parcelable {
     companion object {
-        const val INVALID_TIME = -1
+        const val INVALID_YEAR = -1
         const val WATCHED = true
         const val NOT_WATCHED = false
     }
