@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.ifsp.scl.sdm.moviesmanager"
+    namespace = "br.com.moviesmanager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.edu.ifsp.scl.sdm.moviesmanager"
-        minSdk = 26
-        targetSdk = 34
+        applicationId = "br.com.moviesmanager"
+        minSdk = 23
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -36,6 +36,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
     viewBinding {
         enable = true
     }
@@ -51,15 +52,10 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    // room
     implementation("androidx.room:room-runtime:2.6.0")
     annotationProcessor("androidx.room:room-compiler:2.6.0")
     ksp("androidx.room:room-compiler:2.6.0")
-
-    // coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
-
-    // navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
 }

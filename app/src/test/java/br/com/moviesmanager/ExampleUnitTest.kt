@@ -1,4 +1,4 @@
-package br.ifsp.moviesmanager
+package br.com.moviesmanager
 
 import org.junit.Test
 
