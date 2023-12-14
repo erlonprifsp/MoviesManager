@@ -4,12 +4,12 @@
     <string name="add_movie">Add Movie</string>
     <string name="assistido">Assistido</string>
     <string name="nome">Nome do filme</string>
-    <string name="ano_de_lan_amento">Ano de Lançamento</string>
-    <string name="produtora">Produtora</string>
+    <string name="ano_lancamento">Ano de lançamento</string>
+    <string name="estudio">Estudio</string>
     <string name="salvar_filme">Salvar filme</string>
-    <string name="duracao">Duração (Min)</string>
-    <string name="nota_0_10">Nota [0-10]</string>
-    <string name="g_nero">Gênero</string>
+    <string name="duracao">Duração</string>
+    <string name="nota">Nota</string>
+    <string name="genero">Gênero</string>
     <string name="editar_filme">Editar filme</string>
     <string name="remover_filme">Remover filme</string>
     <string name="movie_details">Detalhes do Filme</string>
